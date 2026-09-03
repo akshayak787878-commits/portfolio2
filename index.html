@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of an AI & Data Science engineering student.">
+  <title>Akshay Ak | AI & Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">AA<span>.</span></a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#profiles">Profiles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">AI & DATA SCIENCE ENGINEERING STUDENT</p>
+        <h1>Building my path in <span>AI, ML & Data.</span></h1>
+        <p class="hero-text">
+          I'm an engineering student at Reva University, focused on strengthening my
+          programming foundations and turning ideas into practical projects.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn secondary" href="#contact">Let's Connect</a>
+        </div>
+        <div class="quick-links">
+          <a href="#profiles">GitHub</a>
+          <a href="#profiles">LinkedIn</a>
+          <a href="#profiles">LeetCode</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">AA</div>
+        <div class="status"><span></span> Open to learning & opportunities</div>
+        <h3>AI & Data Science</h3>
+        <p>Python • Data Science • Machine Learning</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Curious learner. Future AI/ML engineer.</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I am an AI & Data Science engineering student at Reva University.
+            I am currently building strong foundations in Python, C, SQL, data
+            structures and data science while exploring artificial intelligence
+            and machine learning.
+          </p>
+          <p>
+            My goal is to consistently improve my technical skills, build useful
+            projects, contribute on GitHub, and become internship- and
+            industry-ready.
+          </p>
+        </div>
+        <div class="stats">
+          <div><strong>7.5</strong><span>Current CGPA</span></div>
+          <div><strong>Python</strong><span>Primary language</span></div>
+          <div><strong>AI/ML</strong><span>Career interest</span></div>
+          <div><strong>2026</strong><span>Growth focus</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <p class="eyebrow">MY TOOLKIT</p>
+      <h2>Skills I'm building</h2>
+      <div class="skill-grid">
+        <article class="skill-card"><h3>Programming</h3><p>Python · C</p></article>
+        <article class="skill-card"><h3>Data Science</h3><p>Pandas · NumPy · Matplotlib · Seaborn</p></article>
+        <article class="skill-card"><h3>AI / ML</h3><p>Machine Learning fundamentals · Scikit-learn workflow</p></article>
+        <article class="skill-card"><h3>Databases</h3><p>SQL · MySQL fundamentals</p></article>
+        <article class="skill-card"><h3>DSA</h3><p>Currently starting core Data Structures & Algorithms</p></article>
+        <article class="skill-card"><h3>Developer Tools</h3><p>Git · GitHub · Jupyter Notebook · VS Code</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">PROJECTS</p>
+      <h2>Things I've built</h2>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-number">01</div>
+          <h3>Weather Forecasting Project</h3>
+          <p>
+            A Python-based weather forecasting project created to explore data
+            handling, analysis and prediction concepts.
+          </p>
+          <div class="tags"><span>Python</span><span>Data Science</span><span>Forecasting</span></div>
+          <a class="text-link" href="https://github.com/" target="_blank">GitHub ↗</a>
+        </article>
+        <article class="project muted">
+          <div class="project-number">02</div>
+          <h3>Next Project</h3>
+          <p>Coming soon — an AI/ML project will be added here as I build it.</p>
+          <div class="tags"><span>AI/ML</span><span>Coming Soon</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="profiles" class="section alt">
+      <p class="eyebrow">ONLINE PRESENCE</p>
+      <h2>Find me online</h2>
+      <div class="profile-grid">
+        <a class="profile" href="https://github.com/" target="_blank"><span>GitHub</span><b>View profile ↗</b></a>
+        <a class="profile" href="https://www.linkedin.com/" target="_blank"><span>LinkedIn</span><b>Connect ↗</b></a>
+        <a class="profile" href="https://leetcode.com/" target="_blank"><span>LeetCode</span><b>View profile ↗</b></a>
+        <a class="profile" href="https://www.kaggle.com/" target="_blank"><span>Kaggle</span><b>View profile ↗</b></a>
+      </div>
+      <p class="note">Replace the placeholder profile links above with your actual account URLs before publishing.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Let's build something useful.</h2>
+      <p>
+        I'm always interested in learning, building projects, and connecting
+        with people in technology and AI/ML.
+      </p>
+      <div class="contact-actions">
+        <a class="btn primary" href="mailto:your.email@example.com">Email Me</a>
+        <a class="btn secondary" href="#profiles">Professional Profiles</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Akshay Ak</span>
+    <span>Built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
